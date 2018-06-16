@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "ts-node node_modules/jasmine/bin/jasmine",
     "build": "tsc"
   },
   "repository": {
@@ -19,6 +19,9 @@
   },
   "homepage": "https://github.com/shandsj/typescript-ddd#readme",
   "devDependencies": {
+    "@types/jasmine": "^2.8.8",
+    "jasmine": "^3.1.0",
+    "ts-node": "^6.1.1",
     "typescript": "^2.9.2"
   }
 }
