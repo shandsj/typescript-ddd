@@ -26,7 +26,7 @@ exports.TestEntity = TestEntity;
 describe('Entity', function () {
     it('equals entities with the same identifier', function () {
         var entity1 = new TestEntity(1);
-        var entity2 = new TestEntity(2);
+        var entity2 = new TestEntity(1);
         expect(entity1.equals(entity2)).toBeTruthy();
     });
 });
